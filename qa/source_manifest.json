@@ -1,0 +1,17 @@
+{
+  "display_url": "https://hyper3d.ai/workspace/rodin/b89607c5-f8a8-44d8-8bef-331d5c8eda35",
+  "files": [
+    {
+      "name": "base_basic_pbr.glb",
+      "role": "model",
+      "mime_type": "model/gltf-binary",
+      "bytes": 13310964
+    },
+    {
+      "name": "base_basic_shaded.glb",
+      "role": "model",
+      "mime_type": "model/gltf-binary",
+      "bytes": 6502172
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "full_decode": true,
+  "duration": 36,
+  "frames": 432,
+  "fps": "12/1",
+  "width": 640,
+  "height": 640,
+  "bytes": 1269805,
+  "audio": "none; synthetic viseme demonstration",
+  "passed": true
+}

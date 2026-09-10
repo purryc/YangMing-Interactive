@@ -1,0 +1,17 @@
+{
+  "provider": "Hyper3D",
+  "estimated_credits": 0.5,
+  "args": {
+    "prompt": "Create exactly ONE complete 3D character from this turnaround sheet. All panels depict the SAME character from different angles, NOT separate people. Match the full-body front, side and back views: adorable elderly Chinese scholar, oversized round head and big brown eyes, white eyebrows, white side hair, sculpted flowing white moustache and long pointed white beard, tall soft black traditional scholar hat with rear ribbons, blue gray brocade wide-sleeved open robe, ivory inner robe, brown belt and tassels, short legs and black cloth shoes. Preserve proportions, face identity, costume patterns and muted colors. Symmetric T pose, arms extended horizontally and feet separated slightly. Single isolated character, upright, front facing, neutral expression, animation-friendly quad mesh. No reference board, no other heads or figures, no text, labels, backdrop, floor or pedestal.",
+    "reference_upload_ids": [
+      "fe3bac37-c0e5-451d-8b82-09ed3d9d3ea7"
+    ],
+    "mesh_mode": "Quad",
+    "tier": "Gen-2.5-Medium",
+    "quality_override": 30000,
+    "geometry_file_format": "glb"
+  },
+  "generation_id": "b89607c5-f8a8-44d8-8bef-331d5c8eda35",
+  "status": "queued",
+  "display_url": "https://hyper3d.ai/workspace/rodin/b89607c5-f8a8-44d8-8bef-331d5c8eda35"
+}

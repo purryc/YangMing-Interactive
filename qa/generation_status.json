@@ -1,0 +1,10 @@
+{
+  "generation_id": "b89607c5-f8a8-44d8-8bef-331d5c8eda35",
+  "status": "completed",
+  "stage": {
+    "name": "pack",
+    "current": 5,
+    "total": 5
+  },
+  "timed_out": false
+}

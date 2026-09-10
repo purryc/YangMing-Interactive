@@ -1,0 +1,12 @@
+{
+  "full_decode": true,
+  "frames": 360,
+  "duration": 30,
+  "fps": "12/1",
+  "resolution": [
+    640,
+    640
+  ],
+  "audio": false,
+  "passed": true
+}

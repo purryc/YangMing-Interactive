@@ -1,0 +1,10 @@
+{
+  "technical_passed": true,
+  "duration": 30,
+  "current_time": 30,
+  "ended": true,
+  "paused": true,
+  "observed_media_error": false,
+  "method": "Full-play button on independent in-app browser page; observed playback ended at 30 seconds",
+  "visual_signoff": "revise; see visual_review.json"
+}

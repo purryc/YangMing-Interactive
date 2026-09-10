@@ -1,0 +1,22 @@
+{
+  "extraction": "Top-left complete character from multi-view reconstruction",
+  "raw_region": {
+    "x_max": -0.32,
+    "z_min": -0.12
+  },
+  "vertices": 6431,
+  "faces": 10912,
+  "height": 2.0,
+  "bounds": [
+    [
+      -0.9142789840698242,
+      -0.13752898573875427,
+      -0.11198200285434723
+    ],
+    [
+      -0.32561299204826355,
+      0.16694602370262146,
+      0.522072970867157
+    ]
+  ]
+}

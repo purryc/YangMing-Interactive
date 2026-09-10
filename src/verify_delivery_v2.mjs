@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const root=path.resolve(import.meta.dirname,'..');
+const checks=['rig_validation','glb_validation','video_validation'].map(n=>({name:n,...JSON.parse(fs.readFileSync(path.join(root,'qa/v2',n+'.json')))}));
+if(checks.some(c=>!c.passed))throw new Error('An artifact validation failed');
+const test=spawnSync(process.execPath,[path.join(root,'src/test_live_visemes.mjs')],{encoding:'utf8'});if(test.status!==0)throw new Error(test.stderr);
+const paths=['output/scholar_voice_rig_v2.blend','output/scholar_voice_rig_v2.glb','output/voice_interaction_preview_v2.mp4','output/preview_v2.html','README_v2.md','src/live_visemes.mjs'];
+const files=paths.map(p=>{const bytes=fs.readFileSync(path.join(root,p));return {path:p,bytes:bytes.length,sha256:crypto.createHash('sha256').update(bytes).digest('hex')};});
+const report={created:new Date().toISOString(),passed:true,checks:checks.map(c=>({name:c.name,passed:c.passed})),driver_test:test.stdout.trim(),files,limitations:['No live audio/TTS/LLM service connected','Five vowels are not a full phoneme set','Stylized mouth overlay, not production facial topology','Walk/run are in-place cycles; robe deformation is approximate']};
+fs.writeFileSync(path.join(root,'qa/v2/delivery_manifest.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

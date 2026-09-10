@@ -1,0 +1,14 @@
+{
+  "status": "revise",
+  "technical_status": "passed",
+  "reviewed": ["front", "back", "side", "mouth", "blink", "fist", "point", "pinch", "boots", "salute", "stroke_beard"],
+  "usable_additions": ["articulated five-finger hands", "boot structure and sole", "11 named viseme targets", "independent gaze and eyelids", "35 animation/control demonstration clips"],
+  "not_approved": [
+    "Eyelid and eyebrow patch boundaries remain visible; original brow texture partially intersects",
+    "Sleeve drape and hand/beard contacts do not match the reference fidelity",
+    "Pinch and thumb opposition are approximate",
+    "Whole character still inherits low-resolution source texture and geometry"
+  ],
+  "rejected_experiment": "qa/v3/unified_surface.blend was not promoted: flat face material introduced polygonal boundaries and recolored the hat edge",
+  "production_ready": false
+}

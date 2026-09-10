@@ -1,0 +1,156 @@
+{
+  "animations": [
+    {
+      "name": "look_around",
+      "movement": 0.10779354852596061,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "bow",
+      "movement": 0.41138359087108245,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "shrug",
+      "movement": 0.28139362045808575,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "wave",
+      "movement": 0.7230009494088694,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "run",
+      "movement": 0.2689381043367039,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "walk",
+      "movement": 0.12774593560898326,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "greet",
+      "movement": 0.3042857275183149,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "acknowledge",
+      "movement": 0.1668315809347564,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "speak",
+      "movement": 0.3606629202457016,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.8500000238418579,
+      "finite": true
+    },
+    {
+      "name": "think",
+      "movement": 0.15541802390770632,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "listen",
+      "movement": 0.11748921872292037,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    },
+    {
+      "name": "idle",
+      "movement": 0.022542284420531244,
+      "loop_endpoint_delta": 0.0,
+      "max_mouth_weight": 0.0,
+      "finite": true
+    }
+  ],
+  "morph_meshes": [
+    "model",
+    "Viseme_Mouth_Mesh"
+  ],
+  "bones": 25,
+  "mouth_key_tests": [
+    {
+      "mesh": "model",
+      "key": "viseme_A",
+      "delta": 0.056851093808271747,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "model",
+      "key": "viseme_E",
+      "delta": 0.024364895859475738,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "model",
+      "key": "viseme_I",
+      "delta": 0.014618846564299333,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "model",
+      "key": "viseme_O",
+      "delta": 0.0471052168683818,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "model",
+      "key": "viseme_U",
+      "delta": 0.03167420197617354,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "Viseme_Mouth_Mesh",
+      "key": "viseme_A",
+      "delta": 0.14468705713423682,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "Viseme_Mouth_Mesh",
+      "key": "viseme_E",
+      "delta": 0.09323794688592711,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "Viseme_Mouth_Mesh",
+      "key": "viseme_I",
+      "delta": 0.08029942999541313,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "Viseme_Mouth_Mesh",
+      "key": "viseme_O",
+      "delta": 0.12767071300429952,
+      "reset_error": 0.0
+    },
+    {
+      "mesh": "Viseme_Mouth_Mesh",
+      "key": "viseme_U",
+      "delta": 0.10008583929509529,
+      "reset_error": 0.0
+    }
+  ],
+  "passed": true
+}

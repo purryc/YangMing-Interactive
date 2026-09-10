@@ -1,0 +1,19 @@
+{
+  "started": "2026-09-10T03:56:40.997Z",
+  "prompt": "只说一句：知是行之始，行是知之成。",
+  "success": true,
+  "ready_ms": 1820,
+  "first_audio_ms": 2900,
+  "transcript": "知是行之始，行是知之成。",
+  "audio_seconds": 2.96,
+  "events": {
+    "ready": 1,
+    "interrupted": 1,
+    "response_start": 1,
+    "text_delta": 3,
+    "audio": 10,
+    "text_done": 1,
+    "response_done": 1
+  },
+  "nonzero_mouth_frames": 93
+}

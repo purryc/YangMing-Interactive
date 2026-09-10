@@ -1,0 +1,156 @@
+{
+  "reopened": true,
+  "bones": 25,
+  "vertices": 6431,
+  "faces": 10912,
+  "actions": [
+    "acknowledge",
+    "greet",
+    "idle",
+    "listen",
+    "speak",
+    "think"
+  ],
+  "weight_errors": 0,
+  "max_weight_error": 4.470348358154297e-08,
+  "pose_samples": [
+    {
+      "frame": 1,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0,
+      "max_edge_stretch": 2.1015166376439107
+    },
+    {
+      "frame": 19,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.031151729138770408,
+      "max_edge_stretch": 2.1373857278586654
+    },
+    {
+      "frame": 37,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0024446539212874016,
+      "max_edge_stretch": 2.1032753983992225
+    },
+    {
+      "frame": 55,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.03122217211855032,
+      "max_edge_stretch": 2.130591996763011
+    },
+    {
+      "frame": 73,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0,
+      "max_edge_stretch": 2.1015166376439107
+    },
+    {
+      "frame": 109,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.11748934158944817,
+      "max_edge_stretch": 2.1032753983992225
+    },
+    {
+      "frame": 145,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0,
+      "max_edge_stretch": 2.1015166376439107
+    },
+    {
+      "frame": 181,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.1422704134289218,
+      "max_edge_stretch": 2.1032753983992225
+    },
+    {
+      "frame": 217,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0,
+      "max_edge_stretch": 2.1015166376439107
+    },
+    {
+      "frame": 235,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.08979763980566832,
+      "max_edge_stretch": 2.073892811447441
+    },
+    {
+      "frame": 253,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.19443960875054636,
+      "max_edge_stretch": 2.1011824240255947
+    },
+    {
+      "frame": 271,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.10459040655880476,
+      "max_edge_stretch": 2.130591996763011
+    },
+    {
+      "frame": 289,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0,
+      "max_edge_stretch": 2.1015166376439107
+    },
+    {
+      "frame": 325,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.15400915012974625,
+      "max_edge_stretch": 2.1032753983992225
+    },
+    {
+      "frame": 361,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0,
+      "max_edge_stretch": 2.1015166376439107
+    },
+    {
+      "frame": 379,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.16642340338863554,
+      "max_edge_stretch": 2.1073989263172312
+    },
+    {
+      "frame": 397,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.312537724482892,
+      "max_edge_stretch": 2.107469483934367
+    },
+    {
+      "frame": 415,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.15134376952312292,
+      "max_edge_stretch": 2.1016841184943322
+    },
+    {
+      "frame": 432,
+      "finite": true,
+      "floor_z": 3.3760443329811096e-09,
+      "max_displacement_from_idle": 0.0007104470564381205,
+      "max_edge_stretch": 2.10033902949751
+    }
+  ],
+  "packed_images": true,
+  "armature_modifier": true,
+  "max_displacement": 0.312537724482892,
+  "max_edge_stretch": 2.1373857278586654,
+  "passed": true
+}

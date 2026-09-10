@@ -1,0 +1,74 @@
+[
+  {
+    "name": "idle",
+    "start": 1,
+    "end": 72,
+    "duration": 3
+  },
+  {
+    "name": "listen",
+    "start": 73,
+    "end": 144,
+    "duration": 3
+  },
+  {
+    "name": "think",
+    "start": 145,
+    "end": 216,
+    "duration": 3
+  },
+  {
+    "name": "speak",
+    "start": 217,
+    "end": 288,
+    "duration": 3
+  },
+  {
+    "name": "acknowledge",
+    "start": 289,
+    "end": 360,
+    "duration": 3
+  },
+  {
+    "name": "greet",
+    "start": 361,
+    "end": 432,
+    "duration": 3
+  },
+  {
+    "name": "walk",
+    "start": 433,
+    "end": 504,
+    "duration": 3
+  },
+  {
+    "name": "run",
+    "start": 505,
+    "end": 576,
+    "duration": 3
+  },
+  {
+    "name": "wave",
+    "start": 577,
+    "end": 648,
+    "duration": 3
+  },
+  {
+    "name": "shrug",
+    "start": 649,
+    "end": 720,
+    "duration": 3
+  },
+  {
+    "name": "bow",
+    "start": 721,
+    "end": 792,
+    "duration": 3
+  },
+  {
+    "name": "look_around",
+    "start": 793,
+    "end": 864,
+    "duration": 3
+  }
+]

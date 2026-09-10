@@ -1,0 +1,14 @@
+{
+  "fps": 24,
+  "target_height": 2.0,
+  "speech_mode": "illustrative rhythm; no supplied voice recording or phoneme timing",
+  "actions": [
+    {"name":"idle","label":"待机","seconds":3,"intent":"安静呼吸，轻微重心变化"},
+    {"name":"listen","label":"倾听","seconds":3,"intent":"轻微前倾、侧头，保持关注"},
+    {"name":"think","label":"思考","seconds":3,"intent":"视线方向随头部稍转，停顿后回正"},
+    {"name":"speak","label":"讲解","seconds":3,"intent":"克制的单手节拍、头部强调和胡须微动"},
+    {"name":"acknowledge","label":"确认","seconds":3,"intent":"清楚的一次点头后回正"},
+    {"name":"greet","label":"礼貌回应","seconds":3,"intent":"小幅举手、身体轻微致意"}
+  ],
+  "limitations": ["Face controls depend on generated topology", "No cloth or hair simulation is promised", "No real-time microphone or ASR/TTS integration in this asset deliverable"]
+}

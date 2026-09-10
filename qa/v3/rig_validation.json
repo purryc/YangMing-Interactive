@@ -1,0 +1,324 @@
+{
+  "bones": 55,
+  "meshes": {
+    "Boots_Detailed": {
+      "vertices": 2720,
+      "faces": 2272,
+      "weight_errors": 0,
+      "shape_keys": []
+    },
+    "Face_Controls": {
+      "vertices": 5336,
+      "faces": 4496,
+      "weight_errors": 0,
+      "shape_keys": [
+        "blink_L",
+        "blink_R",
+        "squint",
+        "wide",
+        "gaze_L",
+        "gaze_R",
+        "gaze_U",
+        "gaze_D",
+        "expr_Happy",
+        "expr_Angry",
+        "expr_Sad",
+        "expr_Laughing",
+        "expr_Surprised",
+        "expr_Thinking",
+        "expr_Proud",
+        "expr_Helpless"
+      ]
+    },
+    "Hand_Nails_Creases": {
+      "vertices": 1512,
+      "faces": 1328,
+      "weight_errors": 0,
+      "shape_keys": []
+    },
+    "Hands_Articulated": {
+      "vertices": 25508,
+      "faces": 25504,
+      "weight_errors": 0,
+      "shape_keys": []
+    },
+    "Hat_Ribbons": {
+      "vertices": 324,
+      "faces": 270,
+      "weight_errors": 0,
+      "shape_keys": []
+    },
+    "Mouth_Visemes": {
+      "vertices": 2632,
+      "faces": 2208,
+      "weight_errors": 0,
+      "shape_keys": [
+        "viseme_A",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U",
+        "viseme_MBP",
+        "viseme_FV",
+        "viseme_TH",
+        "viseme_TDNL",
+        "viseme_CHSHZH",
+        "viseme_KGNG",
+        "expr_Happy",
+        "expr_Angry",
+        "expr_Sad",
+        "expr_Laughing",
+        "expr_Surprised",
+        "expr_Thinking",
+        "expr_Proud",
+        "expr_Helpless"
+      ]
+    },
+    "Scholar_Mesh": {
+      "vertices": 4066,
+      "faces": 6775,
+      "weight_errors": 0,
+      "shape_keys": [
+        "viseme_A",
+        "viseme_E",
+        "viseme_I",
+        "viseme_O",
+        "viseme_U",
+        "viseme_MBP",
+        "viseme_FV",
+        "viseme_TH",
+        "viseme_TDNL",
+        "viseme_CHSHZH",
+        "viseme_KGNG",
+        "expr_Happy",
+        "expr_Angry",
+        "expr_Sad",
+        "expr_Laughing",
+        "expr_Surprised",
+        "expr_Thinking",
+        "expr_Proud",
+        "expr_Helpless"
+      ]
+    },
+    "Sleeves_Retopo": {
+      "vertices": 1824,
+      "faces": 1536,
+      "weight_errors": 0,
+      "shape_keys": []
+    }
+  },
+  "actions": [
+    {
+      "name": "idle",
+      "movement": 0.022542356740914014,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "listen",
+      "movement": 0.11748934158944817,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "think",
+      "movement": 0.15541799694203115,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "speak",
+      "movement": 0.34627194671588807,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "acknowledge",
+      "movement": 0.15400915012974625,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "greet",
+      "movement": 0.32339882080911514,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "walk",
+      "movement": 0.02639632855392992,
+      "floor_min": -3.341119736433029e-08,
+      "finite": true
+    },
+    {
+      "name": "run",
+      "movement": 0.26877633660834105,
+      "floor_min": -3.341119736433029e-08,
+      "finite": true
+    },
+    {
+      "name": "wave",
+      "movement": 0.7088058650226599,
+      "floor_min": -3.341119736433029e-08,
+      "finite": true
+    },
+    {
+      "name": "shrug",
+      "movement": 0.3054214369060102,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "bow",
+      "movement": 0.41138340523298184,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "look_around",
+      "movement": 0.08320886617309389,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "shake_head",
+      "movement": 0.014769804978200338,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "stroke_beard",
+      "movement": 0.902245668967938,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "salute",
+      "movement": 0.9263559159379923,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "hands_on_hips",
+      "movement": 0.2390842693910624,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "point",
+      "movement": 0.7407485924997409,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "peace",
+      "movement": 0.7407485924997409,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "pinch",
+      "movement": 0.7407485924997409,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "clap",
+      "movement": 0.887994327690291,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "hand_open",
+      "movement": 0.7387403392886225,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "hand_fist",
+      "movement": 0.18093156792394832,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "hand_point",
+      "movement": 0.18093156792394832,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "hand_peace",
+      "movement": 0.16501113765394707,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "hand_pinch",
+      "movement": 0.15768289390047893,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_happy",
+      "movement": 0.8164228751240012,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_angry",
+      "movement": 0.10443340384922843,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_sad",
+      "movement": 0.08980072425641934,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_laughing",
+      "movement": 0.14408457582463502,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_surprised",
+      "movement": 0.15324978968073413,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_thinking",
+      "movement": 0.08532067686719652,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_proud",
+      "movement": 0.09365956112201468,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "express_helpless",
+      "movement": 0.0905050697664052,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "viseme_demo",
+      "movement": 0.07577464948130916,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    },
+    {
+      "name": "eye_demo",
+      "movement": 0.09847238643442638,
+      "floor_min": 0.0014019274385645986,
+      "finite": true
+    }
+  ],
+  "packed_images": true,
+  "passed": true
+}

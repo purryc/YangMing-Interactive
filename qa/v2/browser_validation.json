@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "method": "Independent in-app browser page, full-play button, observed ended=true after uninterrupted playback",
+  "duration": 36,
+  "currentTime": 36,
+  "ended": true,
+  "paused": true,
+  "media_error_observed": false,
+  "preview_page": "output/preview_v2.html"
+}

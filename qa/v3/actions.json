@@ -1,0 +1,212 @@
+[
+  {
+    "name": "idle",
+    "start": 1,
+    "end": 72,
+    "duration": 3
+  },
+  {
+    "name": "listen",
+    "start": 73,
+    "end": 144,
+    "duration": 3
+  },
+  {
+    "name": "think",
+    "start": 145,
+    "end": 216,
+    "duration": 3
+  },
+  {
+    "name": "speak",
+    "start": 217,
+    "end": 288,
+    "duration": 3
+  },
+  {
+    "name": "acknowledge",
+    "start": 289,
+    "end": 360,
+    "duration": 3
+  },
+  {
+    "name": "greet",
+    "start": 361,
+    "end": 432,
+    "duration": 3
+  },
+  {
+    "name": "walk",
+    "start": 433,
+    "end": 504,
+    "duration": 3
+  },
+  {
+    "name": "run",
+    "start": 505,
+    "end": 576,
+    "duration": 3
+  },
+  {
+    "name": "wave",
+    "start": 577,
+    "end": 648,
+    "duration": 3
+  },
+  {
+    "name": "shrug",
+    "start": 649,
+    "end": 720,
+    "duration": 3
+  },
+  {
+    "name": "bow",
+    "start": 721,
+    "end": 792,
+    "duration": 3
+  },
+  {
+    "name": "look_around",
+    "start": 793,
+    "end": 864,
+    "duration": 3
+  },
+  {
+    "name": "shake_head",
+    "start": 865,
+    "end": 936,
+    "duration": 3
+  },
+  {
+    "name": "stroke_beard",
+    "start": 937,
+    "end": 1008,
+    "duration": 3
+  },
+  {
+    "name": "salute",
+    "start": 1009,
+    "end": 1080,
+    "duration": 3
+  },
+  {
+    "name": "hands_on_hips",
+    "start": 1081,
+    "end": 1152,
+    "duration": 3
+  },
+  {
+    "name": "point",
+    "start": 1153,
+    "end": 1224,
+    "duration": 3
+  },
+  {
+    "name": "peace",
+    "start": 1225,
+    "end": 1296,
+    "duration": 3
+  },
+  {
+    "name": "pinch",
+    "start": 1297,
+    "end": 1368,
+    "duration": 3
+  },
+  {
+    "name": "clap",
+    "start": 1369,
+    "end": 1440,
+    "duration": 3
+  },
+  {
+    "name": "hand_open",
+    "start": 1441,
+    "end": 1512,
+    "duration": 3
+  },
+  {
+    "name": "hand_fist",
+    "start": 1513,
+    "end": 1584,
+    "duration": 3
+  },
+  {
+    "name": "hand_point",
+    "start": 1585,
+    "end": 1656,
+    "duration": 3
+  },
+  {
+    "name": "hand_peace",
+    "start": 1657,
+    "end": 1728,
+    "duration": 3
+  },
+  {
+    "name": "hand_pinch",
+    "start": 1729,
+    "end": 1800,
+    "duration": 3
+  },
+  {
+    "name": "express_happy",
+    "start": 1801,
+    "end": 1872,
+    "duration": 3
+  },
+  {
+    "name": "express_angry",
+    "start": 1873,
+    "end": 1944,
+    "duration": 3
+  },
+  {
+    "name": "express_sad",
+    "start": 1945,
+    "end": 2016,
+    "duration": 3
+  },
+  {
+    "name": "express_laughing",
+    "start": 2017,
+    "end": 2088,
+    "duration": 3
+  },
+  {
+    "name": "express_surprised",
+    "start": 2089,
+    "end": 2160,
+    "duration": 3
+  },
+  {
+    "name": "express_thinking",
+    "start": 2161,
+    "end": 2232,
+    "duration": 3
+  },
+  {
+    "name": "express_proud",
+    "start": 2233,
+    "end": 2304,
+    "duration": 3
+  },
+  {
+    "name": "express_helpless",
+    "start": 2305,
+    "end": 2376,
+    "duration": 3
+  },
+  {
+    "name": "viseme_demo",
+    "start": 2377,
+    "end": 2448,
+    "duration": 3
+  },
+  {
+    "name": "eye_demo",
+    "start": 2449,
+    "end": 2520,
+    "duration": 3
+  }
+]

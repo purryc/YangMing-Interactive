@@ -1,0 +1,97 @@
+{
+  "verified_at": "2026-09-10",
+  "renderer": {
+    "loaded": true,
+    "morph_bindings": 14,
+    "body_actions": 35,
+    "console_errors_after_fixes": 0,
+    "speaking_screenshot": "speaking_closeup.png"
+  },
+  "interruption": {
+    "before_queued_ms": 526.333,
+    "before_mouth": 0.10689,
+    "after_queued_ms": 0,
+    "after_mouth": 0,
+    "observation_delay_ms": 700
+  },
+  "automatic_tests": {
+    "passed": 6,
+    "failed": 0
+  },
+  "live_provider": "provider_validation.json",
+  "physical_microphone_verified": false,
+  "phoneme_alignment": false,
+  "injected_microphone": {
+    "loaded": true,
+    "bindings": 14,
+    "frames": 1898,
+    "peakMouth": 0,
+    "audioChunks": 2,
+    "micChunks": 55,
+    "state": "speak",
+    "camera": [
+      1.5200366526579856e-07,
+      1.3704415953105524,
+      2.9978970859199627
+    ],
+    "target": [
+      1.5200366526579856e-07,
+      1.3004906631118538,
+      -8.309972931996867e-09
+    ],
+    "actions": [
+      "idle",
+      "listen",
+      "think",
+      "speak",
+      "acknowledge",
+      "greet",
+      "walk",
+      "run",
+      "wave",
+      "shrug",
+      "bow",
+      "look_around",
+      "shake_head",
+      "stroke_beard",
+      "salute",
+      "hands_on_hips",
+      "point",
+      "peace",
+      "pinch",
+      "clap",
+      "hand_open",
+      "hand_fist",
+      "hand_point",
+      "hand_peace",
+      "hand_pinch",
+      "express_happy",
+      "express_angry",
+      "express_sad",
+      "express_laughing",
+      "express_surprised",
+      "express_thinking",
+      "express_proud",
+      "express_helpless",
+      "viseme_demo",
+      "eye_demo"
+    ],
+    "bounds": {
+      "min": [
+        -0.5109728215137004,
+        0.001401922278881528,
+        -0.48020285725744705
+      ],
+      "max": [
+        0.5109731255210309,
+        1.9999999850988388,
+        0.4802028406375012
+      ]
+    },
+    "mouth": 0,
+    "queuedMs": 659.6666666666682,
+    "micRms": 0,
+    "micPeak": 0.09778549051069083,
+    "text": "先生\n这话通透，就像人想学走路，心里有了念头是开始，真迈开步子走稳了才算学会。若只停在想而不动，那便不算真知，\n\n你\n知是行之始，行是知之成。"
+  }
+}

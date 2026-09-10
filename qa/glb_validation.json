@@ -1,0 +1,37 @@
+{
+  "imported": true,
+  "bone_count": 25,
+  "animations": [
+    {
+      "track": "think",
+      "deformed_vertex_displacement": 0.14227035451361605,
+      "finite": true
+    },
+    {
+      "track": "speak",
+      "deformed_vertex_displacement": 0.19443957522209696,
+      "finite": true
+    },
+    {
+      "track": "listen",
+      "deformed_vertex_displacement": 0.11748921872292037,
+      "finite": true
+    },
+    {
+      "track": "idle",
+      "deformed_vertex_displacement": 0.03122204499597398,
+      "finite": true
+    },
+    {
+      "track": "greet",
+      "deformed_vertex_displacement": 0.3125378749664177,
+      "finite": true
+    },
+    {
+      "track": "acknowledge",
+      "deformed_vertex_displacement": 0.15400916146822696,
+      "finite": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,57 @@
+{
+  "created": "2026-09-10T02:40:34.414Z",
+  "passed": true,
+  "checks": [
+    {
+      "name": "rig_validation",
+      "passed": true
+    },
+    {
+      "name": "glb_validation",
+      "passed": true
+    },
+    {
+      "name": "video_validation",
+      "passed": true
+    }
+  ],
+  "driver_test": "PASS: normalization, smoothing, two-mesh sync, audio end, interruption, bone-only clips",
+  "files": [
+    {
+      "path": "output/scholar_voice_rig_v2.blend",
+      "bytes": 16784855,
+      "sha256": "b9cb33236fc27372020069669a786214896d0618e41584bc7bd5ce10acbcbdb4"
+    },
+    {
+      "path": "output/scholar_voice_rig_v2.glb",
+      "bytes": 12504316,
+      "sha256": "8845813a2420d9bd4ab99921ff26cbb522cf257ddf6c0a64bdda41e8f06bd0b9"
+    },
+    {
+      "path": "output/voice_interaction_preview_v2.mp4",
+      "bytes": 1269805,
+      "sha256": "c4d9ff2e00860381a94b8e703de8e6799819347dae723f245704c22e62c1e34d"
+    },
+    {
+      "path": "output/preview_v2.html",
+      "bytes": 3765,
+      "sha256": "c18189ebd9731c4cd02964f3da86ac516a2656527c80ac2eaee7bce0b1b6c30a"
+    },
+    {
+      "path": "README_v2.md",
+      "bytes": 4837,
+      "sha256": "2c2ea0f43b45ab47c3cad9b4fde8352453bb86746eb32577d95ec84ad99de255"
+    },
+    {
+      "path": "src/live_visemes.mjs",
+      "bytes": 1692,
+      "sha256": "8037ed85158cf7fcd5bbdee56658a1290bea8f114d4ba19039dae376226b5869"
+    }
+  ],
+  "limitations": [
+    "No live audio/TTS/LLM service connected",
+    "Five vowels are not a full phoneme set",
+    "Stylized mouth overlay, not production facial topology",
+    "Walk/run are in-place cycles; robe deformation is approximate"
+  ]
+}

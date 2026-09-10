@@ -1,0 +1,314 @@
+{
+  "bones": 55,
+  "clips": [
+    {
+      "name": "eye_demo",
+      "movement": 0.09847214999157006,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "viseme_demo",
+      "movement": 0.07577464948130916,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.8500000238418579,
+      "finite": true
+    },
+    {
+      "name": "express_helpless",
+      "movement": 0.09050508214689834,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_proud",
+      "movement": 0.09365952958183604,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_thinking",
+      "movement": 0.08532067686719652,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_surprised",
+      "movement": 0.15324989313475076,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_laughing",
+      "movement": 0.14408467641626618,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_sad",
+      "movement": 0.0898007560175761,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_angry",
+      "movement": 0.1044333821119401,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "express_happy",
+      "movement": 0.11387834441127824,
+      "endpoint_delta": 0.0,
+      "morph_max": 1.0,
+      "finite": true
+    },
+    {
+      "name": "hand_pinch",
+      "movement": 0.157683100620866,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "hand_peace",
+      "movement": 0.16501117716193028,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "hand_point",
+      "movement": 0.18093199193844164,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "hand_fist",
+      "movement": 0.18093199193844164,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "hand_open",
+      "movement": 0.0,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "clap",
+      "movement": 0.620041543747364,
+      "endpoint_delta": 5.170509687929592e-07,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "pinch",
+      "movement": 0.7407487768472468,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "peace",
+      "movement": 0.7407487768472468,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "point",
+      "movement": 0.7407487768472468,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "hands_on_hips",
+      "movement": 0.2390843550892684,
+      "endpoint_delta": 1.2013700229374393e-07,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "salute",
+      "movement": 0.6700197654360089,
+      "endpoint_delta": 5.170509687929592e-07,
+      "morph_max": 0.8999999761581421,
+      "finite": true
+    },
+    {
+      "name": "stroke_beard",
+      "movement": 0.6822952799422317,
+      "endpoint_delta": 2.9802322387695312e-08,
+      "morph_max": 0.5,
+      "finite": true
+    },
+    {
+      "name": "shake_head",
+      "movement": 0.01476975725519156,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "look_around",
+      "movement": 0.08320890569554534,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "bow",
+      "movement": 0.41138359087108245,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.8999999761581421,
+      "finite": true
+    },
+    {
+      "name": "shrug",
+      "movement": 0.3041646457086782,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "wave",
+      "movement": 0.7246522813622769,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "run",
+      "movement": 0.25809264531019327,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "walk",
+      "movement": 0.0,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "greet",
+      "movement": 0.32339877401242956,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "acknowledge",
+      "movement": 0.15400916146822696,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "speak",
+      "movement": 0.3574118482507,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.8500000238418579,
+      "finite": true
+    },
+    {
+      "name": "think",
+      "movement": 0.15541802390770632,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "listen",
+      "movement": 0.11748921872292037,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    },
+    {
+      "name": "idle",
+      "movement": 0.022542284420531244,
+      "endpoint_delta": 0.0,
+      "morph_max": 0.0,
+      "finite": true
+    }
+  ],
+  "morphs": {
+    "Face_Controls_mesh": [
+      "blink_L",
+      "blink_R",
+      "squint",
+      "wide",
+      "gaze_L",
+      "gaze_R",
+      "gaze_U",
+      "gaze_D",
+      "expr_Happy",
+      "expr_Angry",
+      "expr_Sad",
+      "expr_Laughing",
+      "expr_Surprised",
+      "expr_Thinking",
+      "expr_Proud",
+      "expr_Helpless"
+    ],
+    "model": [
+      "viseme_A",
+      "viseme_E",
+      "viseme_I",
+      "viseme_O",
+      "viseme_U",
+      "viseme_MBP",
+      "viseme_FV",
+      "viseme_TH",
+      "viseme_TDNL",
+      "viseme_CHSHZH",
+      "viseme_KGNG",
+      "expr_Happy",
+      "expr_Angry",
+      "expr_Sad",
+      "expr_Laughing",
+      "expr_Surprised",
+      "expr_Thinking",
+      "expr_Proud",
+      "expr_Helpless"
+    ],
+    "Mouth_Visemes_mesh": [
+      "viseme_A",
+      "viseme_E",
+      "viseme_I",
+      "viseme_O",
+      "viseme_U",
+      "viseme_MBP",
+      "viseme_FV",
+      "viseme_TH",
+      "viseme_TDNL",
+      "viseme_CHSHZH",
+      "viseme_KGNG",
+      "expr_Happy",
+      "expr_Angry",
+      "expr_Sad",
+      "expr_Laughing",
+      "expr_Surprised",
+      "expr_Thinking",
+      "expr_Proud",
+      "expr_Helpless"
+    ]
+  },
+  "technical_passed": true,
+  "visual_status": "revise: eyelid/brow seams and sleeve/contact fidelity remain below the supplied reference; technical pass is not visual signoff"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "idle",
+    "start": 1,
+    "end": 72,
+    "seconds": 3
+  },
+  {
+    "name": "listen",
+    "start": 73,
+    "end": 144,
+    "seconds": 3
+  },
+  {
+    "name": "think",
+    "start": 145,
+    "end": 216,
+    "seconds": 3
+  },
+  {
+    "name": "speak",
+    "start": 217,
+    "end": 288,
+    "seconds": 3
+  },
+  {
+    "name": "acknowledge",
+    "start": 289,
+    "end": 360,
+    "seconds": 3
+  },
+  {
+    "name": "greet",
+    "start": 361,
+    "end": 432,
+    "seconds": 3
+  }
+]

@@ -1,0 +1,28 @@
+.DS_Store
+.playwright-cli/
+**/__pycache__/
+*.py[cod]
+*.blend1
+*.log
+**/node_modules/
+**/.env
+**/.env.*
+!**/.env.example
+
+# Rebuildable render frames and intermediate Blender work files.
+qa/frames/
+qa/frames_final/
+qa/v2/frames/
+qa/v2/frames_final/
+qa/v3/frames/
+qa/extracted_character.blend
+qa/extracted_studio.blend
+qa/source_inspected.blend
+qa/v2/*.blend
+qa/v3/*.blend
+
+# Local realtime fixtures and machine-specific browser configuration.
+qa/realtime_v1/*.wav
+qa/realtime_v1/playwright_mic.json
+qa/realtime_v1/mic_pipeline_result.txt
+qa/realtime_v1/server.log

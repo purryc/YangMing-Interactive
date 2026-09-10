@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {VISEME_NAMES,normalizeVisemes,createLiveVisemeDriver,bodyOnlyClip} from './live_visemes.mjs';
+assert.deepEqual(normalizeVisemes({A:1,E:1}),[.5,.5,0,0,0]);
+assert.deepEqual(normalizeVisemes({A:-1,O:Infinity,U:NaN}),[0,0,0,1,0]);
+const meshes=Array.from({length:2},()=>({morphTargetDictionary:Object.fromEntries(VISEME_NAMES.map((n,i)=>[n,i])),morphTargetInfluences:[0,0,0,0,0]}));
+const d=createLiveVisemeDriver({traverse(fn){meshes.forEach(fn);}});assert.equal(d.bindings,2);d.set({viseme_A:1});
+for(let i=0;i<60;i++)d.update(1/60);
+assert(meshes[0].morphTargetInfluences[0]>.99);assert.deepEqual(meshes[0].morphTargetInfluences,meshes[1].morphTargetInfluences);
+d.stop();for(let i=0;i<60;i++)d.update(1/60);assert(meshes[0].morphTargetInfluences[0]<.001);
+d.set({O:1});d.update(.1);d.stop({immediate:true});assert.deepEqual(meshes[0].morphTargetInfluences,[0,0,0,0,0]);
+const clip={clone(){return {tracks:[{name:'head.quaternion'},{name:'Mouth_Visemes.morphTargetInfluences'}]};}};
+assert.equal(bodyOnlyClip(clip).tracks.length,1);assert.throws(()=>createLiveVisemeDriver({traverse(){}}));
+console.log('PASS: normalization, smoothing, two-mesh sync, audio end, interruption, bone-only clips');
