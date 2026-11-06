@@ -1,5 +1,7 @@
 # YangMing Interactive
 
+从 [完整交接手册](docs/handoff.md) 恢复项目、运行测试和定位可编辑资产。国漫概念与生成提示词见 [美术设定](docs/character_art_direction.md)。
+
 一个可下载、可编辑、可运行的 3D 古风书生互动角色项目。仓库包含 Blender 源模型、骨骼与 35 段动画、GLB 交付文件、表情和 11 组口型、参考图、完整构建脚本，以及接入 Qwen Omni Realtime 的浏览器互动界面。
 
 ![实时对话界面](qa/realtime_v1/speaking_closeup.png)
