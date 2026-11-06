@@ -74,3 +74,11 @@ node ../verify_repository.mjs
 ## 第三方说明
 
 实时音频分析思路参考 Project AIRI 的 MIT 授权实现；许可证副本位于 `src/realtime_v1/airi_license.txt`。Three.js、ws 和 classic-level 通过 npm 安装，具体版本锁定在 `package-lock.json`。
+
+## 交接文档
+
+- [完整交接](docs/handoff.md)
+- [运行时架构](docs/ARCHITECTURE.md)
+- [运行、维护与故障排查](docs/OPERATIONS.md)
+- [关键资产、哈希与排除项](docs/ASSET_MANIFEST.md)
+- [远端归档状态](docs/ARCHIVE_STATUS.md)

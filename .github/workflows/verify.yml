@@ -1,0 +1,30 @@
+name: Verify repository
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: src/realtime_v1/package-lock.json
+      - name: Verify required assets
+        run: node src/verify_repository.mjs
+      - name: Install runtime dependencies
+        run: npm ci --prefix src/realtime_v1 --no-audit --no-fund
+      - name: Run audio and microphone tests
+        run: npm test --prefix src/realtime_v1
+      - name: Check runtime syntax
+        run: |
+          node --check src/realtime_v1/client.mjs
+          node --check src/realtime_v1/server.mjs

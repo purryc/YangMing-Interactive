@@ -1,6 +1,18 @@
 import { access, stat } from 'node:fs/promises';
 
 const required = [
+  'README.md',
+  'docs/handoff.md',
+  'docs/ARCHITECTURE.md',
+  'docs/OPERATIONS.md',
+  'docs/ASSET_MANIFEST.md',
+  'docs/ARCHIVE_STATUS.md',
+  'docs/character_art_direction.md',
+  'docs/research/source_manifest.md',
+  'docs/research/animation_development_brief.md',
+  'docs/research/biography_working_notes.md',
+  'reference/ink_identity_boards/01_baseline.png',
+  'reference/ink_identity_boards/06_woodblock.png',
   'reference/character_sheet.png',
   'reference/visemes_v3.png',
   'reference/eyes_v3.png',
